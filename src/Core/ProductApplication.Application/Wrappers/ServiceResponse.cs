@@ -2,10 +2,6 @@
 {
     public class ServiceResponse<T>
     {
-        public ServiceResponse()
-        {
-            
-        }
         public ServiceResponse(T value)
         {
             Value = value;

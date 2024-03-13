@@ -1,4 +1,5 @@
 using ProductApplication.Persistence;
+using ProductApplication.Application;
 
 internal class Program
 {
@@ -8,6 +9,7 @@ internal class Program
 
         // Add custom services
         builder.Services.AddPersistenceServices();
+        builder.Services.AddApplicationRegistration();
 
         // Add services to the container.
         builder.Services.AddControllers();
